@@ -1,0 +1,100 @@
+/* import google font */
+@import
+url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+@import
+url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap');
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    line-height:1;
+    font-size:100%;
+    font-family:'Open Sans', sans-serif;
+    color:#5a5a5a;
+}
+#container {
+    width: 980px;
+    margin: 0 auto;
+    box-shadow: 0 0 1em #cccccc;
+}
+
+/* header */
+header {
+    padding: 20px;
+}
+header h1 {
+    margin: 20px 10px;
+    color: #b5b5b5;
+}
+
+/* navigasi */
+nav {
+    display: block;
+    background-color: #1f5faa;
+}
+nav a {
+    padding: 15px 30px;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a.active,
+nav a:hover {
+    background-color: #2b83ea;
+}
+
+/* Content Panel */
+.content {
+    background-color: #e4e4e5;
+    padding: 50px 20px;
+    margin-bottom: 20px;
+}
+.content h1 {
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+.content p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+/* footer */
+footer {
+    clear:both;
+    background-color:#1d1d1d;
+    padding:20px;
+    color:#eee;
+}
+
+/* tabel */
+body{
+    font-family: sans-serif;
+}
+table{
+    border-collapse: collapse;
+}
+th, td{
+    border: 1px solid black;
+    font-size: 16px;
+    padding: 7px 9px;
+}
+table th {
+    background:#1f5faa;
+    color:#DCDCDC;
+    font-weight:bold;
+    font-size:14px;
+}
+table tr:nth-child(even) {
+    background:#F0F8FF;
+}
+
+/* Tambah Barang */
+.input{
+    padding: 5px;
+}
